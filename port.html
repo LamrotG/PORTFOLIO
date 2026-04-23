@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamrot Gashaw Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="port.css">
+</head>
+<body>
+
+<main class="page-wrapper">
+
+  <!-- HERO -->
+  <section class="section-card hero-cover">
+    <img src="Images/top.png" alt="Cover Image" class="cover-image">
+  </section>
+
+  <!-- PROFILE -->
+  <section class="section-card profile-section">
+    <div class="profile">
+      <img src="Images/profile.png" alt="Profile" class="avatar">
+
+      <div class="profile-info">
+        <h1>
+          Lamrot Gashaw
+          <img src="Icons/verified.svg" alt="" class="inline-icon">
+        </h1>
+
+        <p class="role">UI / UX Designer</p>
+
+        <p class="subtitle">
+          Hey I'm Lamrot Gashaw, I design intuitive digital products that turn concepts to polished
+          experiences. I specialize in modern UI/UX design, interaction systems and scalable design systems.
+        </p>
+
+        <div class="buttons">
+          <a href="Resume/lamrot_Resume.pdf" target="_blank" class="btn primary">
+            <img src="Icons/resume.svg" alt="" class="btn-icon">
+            Resume / CV
+          </a>
+
+          <a href="#contact" class="btn ghost">
+            Get in touch
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERNET -->
+  <section class="section-card">
+    <h2>Me on the <strong>Internet</strong>!</h2>
+
+    <div class="social-grid">
+      <a href="mailto:lamrotgt@gmail.com" class="pill-btn"><img src="Icons/email.svg" class="btn-icon" alt="">Email</a>
+      <a href="https://x.com/Lamrotgt" class="pill-btn"><img src="Icons/X.svg" class="btn-icon" alt="">Twitter</a>
+      <a href="https://www.instagram.com/a_xatrix/" class="pill-btn"><img src="Icons/Insta.svg" class="btn-icon" alt="">Instagram</a>
+      <a href="https://www.behance.net/lamrotgashaw" class="pill-btn"><img src="Icons/behance.svg" class="btn-icon" alt="">Behance</a>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section-card">
+    <h2>Education</h2>
+
+    <div class="card-row">
+      <div>
+        <h3>Adama Science and Technology University</h3>
+        <p>B.Sc Software Engineering</p>
+        <small>Adama, Ethiopia</small>
+      </div>
+      <span class="meta">Nov 2023 – June 2026 (Expected)</span>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section-card">
+    <h2>Experience</h2>
+
+    <div class="card-row">
+      <div>
+        <h3>Backos Technologies</h3>
+        <p>Software Engineering Intern</p>
+        <small>Adama, Ethiopia</small>
+      </div>
+      <span class="meta">Starts on June 2026</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section-card">
+    <h2>Things I've Designed</h2>
+
+    <div class="grid">
+      <div class="project-card">
+        <img src="Images/flightreg-thum.png" alt="" class="project-image">
+        <div class="project-content">
+          <h3>Flight Registration Form</h3>
+          <p>A modern multi-step registration system designed to make signup fast, clean, and structured.</p>
+          <a href="case-study.html" class="btn primary">
+            <img src="Icons/submmit-arrow.svg" class="btn-icon" alt="">
+            Read Case Study
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="Images/AliveCheck-thum.png" alt="" class="project-image">
+        <div class="project-content">
+          <h3>AliveCheck Landing Page</h3>
+          <p>A clean landing page for a monitoring tool designed for clarity, speed, and trust building.</p>
+          <span class="pill-btn static-btn">Coming Soon</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section-card">
+    <h2>My Skills and Technologies</h2>
+
+    <div class="social-grid">
+      <span class="skill-btn"><img src="Icons/figma.svg" class="btn-icon" alt="">Figma</span>
+      <span class="skill-btn"><img src="Icons/framer.svg" class="btn-icon" alt="">Framer</span>
+      <span class="skill-btn"><img src="Icons/html.svg" class="btn-icon" alt="">HTML</span>
+      <span class="skill-btn"><img src="Icons/css.svg" class="btn-icon" alt="">CSS</span>
+      <span class="skill-btn"><img src="Icons/js.svg" class="btn-icon" alt="">JS</span>
+      <span class="skill-btn"><img src="Icons/php.svg" class="btn-icon" alt="">PHP</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section-card" id="contact">
+    <h2>Contact</h2>
+
+    <form class="form" id="contactForm" action="contact.php" method="POST">
+      <div class="form-row">
+        <input type="text" name="name" id="name" placeholder="Your Full Name">
+        <input type="email" name="email" id="email" placeholder="Email Address">
+      </div>
+
+      <textarea name="message" id="message" placeholder="Describe your project..."></textarea>
+
+      <button type="submit" class="btn primary full">
+        <img src="Icons/submmit-arrow.svg" class="btn-icon" alt="">
+        Submit
+      </button>
+    </form>
+  </section>
+
+  <!-- FOOTER IMAGE -->
+  <section class="section-card footer-image-card">
+    <div class="footer-image">
+      <img src="Images/footer.png" alt="" class="footer-bg">
+      <p>
+        Design and Developed by Lamrot Gashaw <br>
+        © 2026 All Rights Reserved
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<!-- POPUP -->
+<div class="popup-overlay" id="popupOverlay">
+  <div class="popup">
+    <button class="close-popup" id="closePopup">×</button>
+    <p>I got your message, I’ll get back to you soon.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

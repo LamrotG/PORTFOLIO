@@ -33,4 +33,4 @@ To enable submissions, run the project on a server that supports PHP.
 
 ## 🌐 Live Demo
 
-View the project here: [Live Portfolio](https://your-link-here.com)
+View the project here: [Live Portfolio](https://lgportfolio-two.vercel.app/)

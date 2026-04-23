@@ -6,17 +6,22 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message = htmlspecialchars(trim($_POST["message"]));
 
     if (empty($name) || empty($email) || empty($message)) {
-        die("Please fill all fields.");
+        http_response_code(400);
+        exit();
     }
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        die("Invalid email address.");
+        http_response_code(400);
+        exit();
     }
 
-    // Example:
-    // mail("your@email.com", "Portfolio Contact", $message);
+    $to = "lgutsa16@gmail.com";
+    $subject = "Portfolio Contact Message";
+    $body = "Name: $name\nEmail: $email\nMessage:\n$message";
 
-    header("Location: index.html");
+    mail($to, $subject, $body);
+
+    http_response_code(200);
     exit();
 }
 ?>

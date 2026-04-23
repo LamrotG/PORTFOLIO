@@ -1,30 +1,36 @@
-# Personal Portfolio V0.0
+# Personal Portfolio
 
-A clean, responsive personal portfolio built using HTML, CSS,JavaScript, and PHP.  
-Designed with a modern UI/UX approach and optimized for performance and readability.
+A responsive personal portfolio built with HTML, CSS, JavaScript, and PHP.
+
+The project focuses on clean UI, smooth interactions, and a structured layout to showcase projects, skills, and contact information in a modern way.
 
 ## 🚀 Features
-- Responsive layout for all devices
-- Modern and minimal design
-- Interactive UI components
-- Contact form with PHP backend handling
-- Organized and maintainable code structure
+
+- Responsive design across devices
+- Dark and light mode support
+- Interactive project cards
+- Contact form with PHP handling
+- Clean and maintainable file structure
+- Smooth user experience
 
 ## 🛠️ Tech Stack
-- HTML5
-- CSS
-- JavaScript 
-- PHP
 
+- HTML5  
+- CSS3  
+- JavaScript  
+- PHP  
 
 ## 📬 Contact Form
-The contact form is handled using PHP. Make sure your server supports PHP to enable form submission.
+
+The contact form uses PHP for form handling.  
+To enable submissions, run the project on a server that supports PHP.
 
 ## 📌 Notes
-- Images and icons are stored in their respective folder.
-- Customize content easily by editing the HTML files.
 
-## 📷 Preview
+- Images and icons are stored in organized asset folders
+- Content can be updated easily through the HTML files
+- Styling is separated for easier maintenance
 
+## 🌐 Live Demo
 
-
+View the project here: [Live Portfolio](https://your-link-here.com)
